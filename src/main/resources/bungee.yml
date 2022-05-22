@@ -1,0 +1,4 @@
+name: AlphaSync
+version: '${project.version}'
+main: foxy.main.Main
+description: Syncs the Discord with Minecraft
