@@ -37,6 +37,9 @@ public final class Main extends Plugin {
                 }
 
                 config.set("bot-token", "");
+                config.set("mysql-conlink", "jdbc:mysql://IP:PORT/DATABASE");
+                config.set("mysql-user", "");
+                config.set("mysql-password", "");
 
                 try {
                     ConfigurationProvider.getProvider(YamlConfiguration.class).save(config, new File(getDataFolder(), "config.yml"));
